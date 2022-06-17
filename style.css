@@ -1,0 +1,25 @@
+body{
+    background-color: chartreuse;
+}
+.conme{
+    
+        display: grid;
+        grid-template-columns:  repeat(auto-fill, minmax(300px, 1fr) );
+        grid-gap: 1em;
+        margin: 1em;
+        
+      
+}
+
+
+.card{
+
+    transition: all 1s;
+  
+}
+.card:hover{
+
+
+    transform: scale(1.1);
+    
+}
